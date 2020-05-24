@@ -39,14 +39,14 @@ while t:
                     contador =0
                     
                     for element in listaalmacenada:
-                        while contador <= len(listaalmacenada))
+                        while contador <= len(listaalmacenada)
                             print(contador, element)                
                                     
                     opcion = input("\n")
                     mp.agregarvideo(usuario,listaalmacenada[opcion-1])
 
                 elif opcion == "3":
-                    
+
                     t = False
                     
         else:
