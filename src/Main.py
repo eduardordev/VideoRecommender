@@ -1,3 +1,4 @@
+  
 import db as mp
 
 opcion = 0
@@ -20,7 +21,8 @@ while usuario == "":
                 print("1. Explorar")
                 print("2. Recomendaciones")
                 print("3. Historial")
-                print("4. Salir")
+                print("4. Eliminar historial")
+                print("5. Salir")
                 
                 opcion = input("\n")
                 
@@ -69,8 +71,12 @@ while usuario == "":
                         for element in lista:
                             print(contador, element)
                             contador+=1
-
+                    
                     elif opcion == "4":
+                        print("HISTORIAL ELIMINADO")
+                        mp.(usuario)
+
+                    elif opcion == "5":
                         print("GRACIAS POR UTILIZAR EL SISTEMA DE RECOMENDACION DE VIDEOS.")
                         bandera = False
                         
