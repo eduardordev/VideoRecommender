@@ -50,3 +50,7 @@ def allVideos():
         lista.append(record["v.name"])
     return lista
 
+#Eliminar historial
+def Eliminar(name):
+    eliminar = db.run("MATCH (p:user)-[r:watched]-(a:video) WHERE p.name = $name DELETE r", name=name)
+    print(Historial(name))
