@@ -20,8 +20,8 @@ password: 123
 ```
 
 * Tener instalado python
-	○ Instalar la librería py2neo en python
-		■ Importar la librería “Graph” de py2neo
+##	- Instalar la librería py2neo en python
+###		> Importar la librería “Graph” de py2neo
 
 ### Instrucciones de ejecucion ▶️
 
