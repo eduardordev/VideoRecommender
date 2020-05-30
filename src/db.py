@@ -8,12 +8,12 @@ db = Graph(uri, auth=(userName, password), encrypted=False)
 
 #Metodo que revisa si un usuario existe (Para hacer el login)
 def usuarioExiste(name):
-        resultado = db.run("MATCH (a:user) WHERE a.name = $name RETURN a.name", name=name)
-        for line in resultado:
-            if line["a.name"] == name:
-                return True
-            else:
-                return False
+    resultado = db.run("MATCH (a:user) WHERE a.name = $name RETURN a.name", name=name)
+    for line in resultado:
+        if line["a.name"] == name:
+            return True
+        else:
+            return False
 
             
 #Metodo que crea una relationship entre usuario y video
