@@ -1,4 +1,4 @@
-# Sistema de Recomendación de Videos
+# Sistema de Recomendación de Videos 👨🏽‍💻🎥🎞
 
 Este es un proyecto en el que se implementa un sistema de recomendacion de videos basandonos en el algoritmo content-based filtering en el cual se hace una prediccion en base al contenido que un usuario consume utilizando las caracteristicas del mismo (Tags, Genero, etc).
 
