@@ -25,7 +25,7 @@ password: 123
 
 ### Instrucciones de ejecucion ▶️
 
-1. Correr la el grafo local creado anteriormente en neo4j
+1. Correr el grafo local creado anteriormente en neo4j
 2. Importar el archivo csv llamado “datosVideos.csv”
 3. Correr el programa en Python
 4. Introducir de nombre de usuario “Gabriel” o “Oscar”
