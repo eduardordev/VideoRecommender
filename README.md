@@ -59,8 +59,6 @@ INGRESE UNA OPCION:
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
 * **Oscar Paredez** [oscarparedez](https://github.com/oscarparedez)
 * **Gabriel Quiroz** [gabrielquirozz](https://github.com/gabrielquirozz)
 * **Jose Pablo Ponce** [JosePabloPonce](https://github.com/JosePabloPonce)
