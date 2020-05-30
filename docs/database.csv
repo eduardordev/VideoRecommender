@@ -1,0 +1,75 @@
+﻿file,nodes,relationships,properties,data
+null,36,36,36,"""_id"",""_labels"",""name"",""_start"",""_end"",""_type""
+""0"","":user"",""Oscar"",,,
+""1"","":user"",""Gabriel"",,,
+""2"","":genre"",""Juegos"",,,
+""3"","":genre"",""Deportes"",,,
+""4"","":genre"",""Comedia"",,,
+""5"","":genre"",""Musica"",,,
+""6"","":genre"",""Blog"",,,
+""7"","":genre"",""Viajes"",,,
+""8"","":genre"",""Noticias"",,,
+""9"","":tag"",""Futbol"",,,
+""10"","":tag"",""NY"",,,
+""11"","":video"",""Anuel AA - Keii [Official Video]"",,,
+""12"","":video"",""¡VUELVE la BUNDESLIGA! | Aplican PRUEBAS a jugadores | Fábregas ve a MBAPPÉ en el MADRID"",,,
+""13"","":tag"",""Meme"",,,
+""14"","":tag"",""LaResistencia"",,,
+""15"","":video"",""Nio Garcia x Brray x Juanka x Anuel AA x Myke Towers - La Jeepeta Remix"",,,
+""16"","":video"",""Maduro denuncia Operación Gedeon: que sabemos de la presunta incursión fallida de EEUU a Venezuela - CNN en Español"",,,
+""17"","":video"",""PROBANDO PIZZAS DE $1 | ¿Cuál es la mejor?"",,,
+""18"","":video"",""LA RESISTENCIA - Entrevista a Gerard Piqué | #LaResistencia 28.03.2019"",,,
+""19"","":video"",""LOS DIOSES DE LA MUERTE"",,,
+""20"","":video"",""ÁREA ENTRE CURVAS - Ejercicio 6"",,,
+""21"","":video"",""FICHAJE ESTRELLA GRATIS !!!! MODO CARRERA"",,,
+""22"","":genre"",""Formacion"",,,
+""23"","":video"",""Lamborghini Aventador vs Tesla Model X - DRAG & ROLLING RACE - Can an EV SUV beat a supercar?"",,,
+""24"","":genre"",""Motor"",,,
+""25"","":tag"",""Reggaeton"",,,
+""26"","":tag"",""Fifa"",,,
+""27"","":tag"",""Aventador"",,,
+""28"","":tag"",""Maduro"",,,
+""29"","":tag"",""Matematicas"",,,
+""30"","":video"",""COMPRAS STREETWEAR EN NUEVA YORK!! (Vlone, Guess x Asap, Nike, Noah..)[bycalitos]"",,,
+""31"","":video"",""LA RESISTENCIA - Entrevista a Ester Expósito | #LaResistencia 22.10.2018"",,,
+""32"","":video"",""COMPRANDO NUEVO COCHE: LAMBO AVENTADOR SVJ! | Salomondrin"",,,
+""33"","":video"",""Venezuela | Donald Trump le responde a Nicolás Maduro ante supuesta invasión de EEUU al país"",,,
+""34"","":video"",""FICHAJE de ÚLTIMA HORA con el CANDELARIO más DIFÍCIL (Modo Carrera sin Presupuesto)"",,,
+""35"","":video"",""Bayern Munich's Kimmich stuns Dortmund with chip for game's only goal | 2020 Bundesliga Highlights"",,,
+,,,""23"",""24"",""hasGenre""
+,,,""23"",""27"",""hasTag""
+,,,""0"",""23"",""watched""
+,,,""21"",""2"",""hasGenre""
+,,,""21"",""26"",""hasTag""
+,,,""31"",""4"",""hasGenre""
+,,,""0"",""17"",""watched""
+,,,""17"",""7"",""hasGenre""
+,,,""17"",""10"",""hasTag""
+,,,""30"",""7"",""hasGenre""
+,,,""15"",""5"",""hasGenre""
+,,,""15"",""25"",""hasTag""
+,,,""1"",""19"",""watched""
+,,,""19"",""6"",""hasGenre""
+,,,""19"",""13"",""hasTag""
+,,,""16"",""8"",""hasGenre""
+,,,""16"",""28"",""hasTag""
+,,,""1"",""16"",""watched""
+,,,""30"",""10"",""hasTag""
+,,,""20"",""22"",""hasGenre""
+,,,""20"",""29"",""hasTag""
+,,,""12"",""3"",""hasGenre""
+,,,""12"",""9"",""hasTag""
+,,,""18"",""14"",""hasTag""
+,,,""18"",""4"",""hasGenre""
+,,,""11"",""5"",""hasGenre""
+,,,""11"",""25"",""hasTag""
+,,,""31"",""14"",""hasTag""
+,,,""32"",""24"",""hasGenre""
+,,,""32"",""27"",""hasTag""
+,,,""33"",""8"",""hasGenre""
+,,,""33"",""28"",""hasTag""
+,,,""34"",""2"",""hasGenre""
+,,,""34"",""26"",""hasTag""
+,,,""35"",""3"",""hasGenre""
+,,,""35"",""9"",""hasTag""
+"
