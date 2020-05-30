@@ -1,3 +1,7 @@
+#Archivo que realiza todas las peticiones a la base de datos que solicita el Main.py
+#Programa realizado por Gabriel Quiroz, Eduardo Ramirez, Jose Pablo Ponce y Oscar Paredez
+#Algoritmos y estructuras de datos, 2020
+
 from py2neo import Graph
 
 # Database Credentials
@@ -14,11 +18,10 @@ def usuarioExiste(name):
             return True
         else:
             return False
-
-            
+    
 #Metodo que crea una relationship entre usuario y video
 def crearRelacion(name, video):
-    db.run("MATCH (a:user),(b:video) WHERE a.name = $name AND b.name = $video CREATE (a)-[:watched]->(b)")
+    db.run("MATCH (a:user),(b:video) WHERE a.name = $name AND b.name = $video CREATE (a)-[:watched]->(b)", name=name, video=video)
 
 #Explorar
 def Explorar(name):
@@ -52,5 +55,4 @@ def allVideos():
 
 #Eliminar historial
 def Eliminar(name):
-    eliminar = db.run("MATCH (p:user)-[r:watched]-(a:video) WHERE p.name = $name DELETE r", name=name)
-    print(Historial(name))
+    db.run("MATCH (p:user)-[r:watched]-(a:video) WHERE p.name = $name DELETE r", name=name)

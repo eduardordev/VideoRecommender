@@ -1,4 +1,7 @@
-  
+#Programa que realiza un sistema de recomendacion de videos en base a gustos del usuario
+#Programa realizado por Gabriel Quiroz, Eduardo Ramirez, Jose Pablo Ponce y Oscar Paredez
+#Algoritmos y estructuras de datos, 2020
+
 import db as mp
 
 opcion = 0
@@ -21,7 +24,7 @@ while usuario == "":
                 print("1. Explorar")
                 print("2. Recomendaciones")
                 print("3. Historial")
-                print("4. Eliminar historial")
+                print("4. Eliminar Historial")
                 print("5. Salir")
                 
                 opcion = input("\n")
@@ -47,37 +50,47 @@ while usuario == "":
                             print(contador, i)
                             contador+=1
 
-                        opcion = input("\n")
+                        opcion = int(input("\n"))
                         mp.crearRelacion(usuario,listaAllVideos[opcion-1])
+                        print("\nSE HA VISTO EL VIDEO *", listaAllVideos[opcion-1], "*")
                                 
                     elif opcion == "2":
                         contador = 1
-                        print("SELECCIONE UN VIDEO POR SU NUMERO: \n")
                             
                         lista = mp.Recomendaciones(usuario)
                         
-                        for element in lista:
-                            print(contador, element)
-                            contador+=1
-                 
-                        opcion = input("\n")
-                        mp.agregarvideo(usuario,listaalmacenada[opcion-1])
-                        
+                        if (lista != []):
+                            print("SELECCIONE UN VIDEO POR SU NUMERO: \n")
+                            for element in lista:
+                                print(contador, element)
+                                contador+=1
+                            opcion = int(input("\n"))
+                            mp.crearRelacion(usuario,lista[opcion-1])
+                            print("\nSE HA VISTO EL VIDEO *", lista[opcion-1], "*")
+                            
+                        else:
+                            print("\nNO SE PUEDEN MOSTRAR RECOMENDACIONES PORQUE EL HISTORIAL ESTA VACIO.")
+                            
                     elif opcion == "3":
                         contador = 1
-                        print('HISTORIAL DEL USUARIO',usuario.upper(), ':\n')
+                        
+                        
                         lista = mp.Historial(usuario)
                         
-                        for element in lista:
-                            print(contador, element)
-                            contador+=1
+                        if (lista != []):
+                            print('\nHISTORIAL DEL USUARIO',usuario.upper(), ':\n')
+                            for element in lista:
+                                print(contador, element)
+                                contador+=1
+                        else:
+                            print("\nNO HAY HISTORIAL QUE MOSTRAR PARA EL USUARIO", usuario)
                     
                     elif opcion == "4":
-                        print("HISTORIAL ELIMINADO")
-                        mp.(usuario)
+                        print("\nHISTORIAL DEL USUARIO", usuario, "ELIMINADO")
+                        mp.Eliminar(usuario)
 
                     elif opcion == "5":
-                        print("GRACIAS POR UTILIZAR EL SISTEMA DE RECOMENDACION DE VIDEOS.")
+                        print("\nGRACIAS POR UTILIZAR EL SISTEMA DE RECOMENDACION DE VIDEOS.")
                         bandera = False
                         
                     else:
